@@ -40,6 +40,7 @@ python eval_model_behavior.py -m meta-llama/Llama-3.1-8B-Instruct -d prism -dom 
 - `prompting.py` contains the code to prompt Kimi to infer user sociodemographics from the PRISM dataset.
 - `prompting_figure.py` contains code for creating heatmaps of Kimi's predictions and for computing whether it beats the random and majority baseline in inferring user sociodemographics.
 - `square_behavior_table.ipynb` contains code to compute and visualize the results of the 2x2 design with topic and user sociodemographics.
+- `supplementary_material.pdf` contains tables with the standardized coefficients and effect sizes with confidence intervals for the mixed-effects models' features.
 
 ## Citation
 If you use the code in this repository, please cite the following paper:
